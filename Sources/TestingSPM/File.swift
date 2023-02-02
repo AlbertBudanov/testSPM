@@ -7,4 +7,4 @@
 
 import Foundation
 
-var test = "Тест спм"
+public var test = "Тест спм"
