@@ -7,4 +7,9 @@
 
 import Foundation
 
-public var test = "Тест спм"
+public struct TestStruct {
+    public var name: String
+    public init(name: String = "Тестовая структура") {
+        self.name = name
+    }
+}
